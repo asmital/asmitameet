@@ -173,6 +173,7 @@ export class LocalTracks extends React.Component {
                     window.asmitaMeet.activeRoom.addTrack(micTrack)
                 }
             }
+        
         //}
     }
 
