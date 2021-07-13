@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70851448a03eda9ca209a055e5e5a4a5",
+    "revision": "2ebfead85da144bc2a3bae88ab8169aa",
     "url": "/asmitameet/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/asmitameet/static/css/2.6788ebe6.chunk.css"
   },
   {
-    "revision": "21f283ab9a64e2af306d",
+    "revision": "ceddabdfd4f98afb1bdd",
     "url": "/asmitameet/static/css/main.d17b9232.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/asmitameet/static/js/2.ac887abe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21f283ab9a64e2af306d",
-    "url": "/asmitameet/static/js/main.e626bfcc.chunk.js"
+    "revision": "ceddabdfd4f98afb1bdd",
+    "url": "/asmitameet/static/js/main.1f29726b.chunk.js"
   },
   {
     "revision": "a598a02b89560937ab37",
