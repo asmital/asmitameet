@@ -17,6 +17,8 @@ export class MyChatBox extends React.Component {
         this.state = {
             listofMessages: this.props.messages,
             currentMessage: '',
+            participantName:this.props.participantName,
+            participantNames:this.props.participantNames
         }
 
     }
@@ -28,7 +30,14 @@ export class MyChatBox extends React.Component {
 
     componentDidUpdate(prevProps) {
         if (prevProps.messages !== this.props.messages) {
-            this.setState({ listofMessages: this.props.messages });
+            this.setState({ listofMessages: this.props.messages});
+        }
+        if (prevProps.participantName !== this.props.participantName) {
+            this.setState({ participantName:this.props.participantName });
+        }
+        if (prevProps.participantNames !== this.props.participantNames) {
+            this.setState({
+                participantNames:this.props.participantNames });
         }
     }
 
@@ -109,7 +118,7 @@ export class MyChatBox extends React.Component {
                 <div className="chatbox" >
                     <div className="chatbox__user-list">
                         <h1>Chat Participants</h1>
-                        {this.participantNames.map(
+                        {this.state.participantNames.map(
                             participant =>
                                 <div className='chatbox__user--active' key={participant.id}>
                                     <p>{participant.name}</p> </div>
